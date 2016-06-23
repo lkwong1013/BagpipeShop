@@ -1,0 +1,277 @@
+/*---Admin Table Manage---*/
+div.table-manage{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+div.table-manage table{
+    width:96%;
+    margin-top:35px;
+    font-size: 16px;
+    border: none;
+    border-collapse: collapse;   
+}
+div.table-manage table thead{
+
+}
+div.table-manage table thead tr td{
+
+    background-color: #4cc6e5;
+    color: #FFF;
+}
+div.table-manage table thead tr td#title{
+    background-color: #00aedb;
+    color: #FFF;
+    font-size:26px;
+}
+
+div.table-manage table thead tr td {
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+div.table-manage table tbody tr td {
+    border: 1px solid #e3e3e3;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom:5px;
+    padding-top:5px;   
+    background: #f5f5f5;
+}
+div.table-manage table tfoot tr td {
+    background-color: #00aedb;
+    color: #FFF;
+    padding-bottom: 2px;
+    padding-top:2px;
+    padding-right:2px;
+    text-align: right;
+}
+/*---Admin Table Manage---*/
+/*---Admin Template (TABLE)---*/
+div.admin-template{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+div.admin-template label#title{
+    font-size:32px;
+}
+div.admin-template table{
+    margin-top:15px;
+}
+div.admin-template table tbody input.basic-btn{
+    margin-left:60px;
+}
+div.admin-template table tbody span.warning-msg{
+   color: red;
+}
+/*---Admin Template (TABLE)---*/
+/*---Form Style---*/
+textarea.editTextArea{
+    border:2px solid #000;
+    width:400px;
+    height:200px;
+    resize: none;
+    margin-left: 60px;
+    font-size: 16px;
+    font-family: "微軟正黑體",arial,helvetica,sans-serif;
+}
+textarea.editTextArea-overlay{
+    border:0px solid #000;
+    width:400px;
+    height:200px;
+    resize: none;
+    margin-left: 60px;
+    font-size: 16px;
+    font-family: "微軟正黑體",arial,helvetica,sans-serif;
+}
+div.admin-template input.editTextBox{
+    border: 2px solid #000;
+    height: 30px;
+    width: 400px;
+    padding-left:5px;
+    margin-left:60px;
+    font-size:20px;
+} 
+div.admin-template input.editTextBox-s{
+    border: 2px solid #000;
+    height: 30px;
+    width: 150px;
+    padding-left:5px;
+    margin-left:60px;
+    font-size:20px;
+} 
+
+div#manage-action span label{
+
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+div#manage-action a{
+    text-decoration: none;
+    color: #000;
+}
+select#category-filter{
+    float:right;
+    vertical-align: middle;
+    height:30px;
+    boder:1px solid #e3e3e3;
+    background-color:#FFF;
+    width:100px;
+    margin-right:55px;
+}
+/*---Product Manage---*/
+div#product-manage table{
+    margin-top:10px;
+}
+div#new-product table input#new-product-image{
+    margin-left: 60px;
+}
+
+/*---Product Manage---*/
+
+div#product-modify table input#product-modify-image{
+    margin-left: 60px;
+}
+
+/*---Order Detail---*/
+div#order-detail{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+div#order-detail label#title{
+    float:left;
+    font-size: 32px;
+}
+div#order-detail div#deliveryto{
+    float:left;
+    clear:left;
+    background-color: #e3e3e3;
+    width:45%;
+    margin-top:20px;
+    margin-right: 53px;
+    padding:5px;
+}
+div#order-detail div#billto label#sub-title,div#order-detail div#deliveryto label#sub-title,div#order-detail div#payment label#sub-title{
+    font-size: 24px;
+}
+div#order-detail div#cart-table{
+    float:left;
+    clear:left;
+    margin-top: 20px;
+     width:100%;
+}
+div#order-detail table{
+    width:96%;
+    margin-top:35px;
+    font-size: 16px;
+    border: none;
+    border-collapse: collapse;   
+}
+div#order-detail table thead tr td{
+    background-color: #4cc6e5;
+    color: #FFF;
+    font-size: 18px;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+div#order-detail table thead tr td#p-img{
+    width:60px;
+}
+div#order-detail table thead tr td#p-name{
+    width:500px;
+}
+div#order-detail table tbody tr td#p-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+div#order-detail table tbody tr td {
+    border: 1px solid #e3e3e3;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom:5px;
+    padding-top:5px;   
+    background: #f5f5f5;
+}
+div#order-detail table tfoot tr td {
+    background-color: #00aedb;
+    color: #FFF;
+    padding-bottom: 2px;
+    padding-top:2px;
+    padding-right:2px;
+    text-align: right;
+}
+div#order-detail table tbody tr td div#cart-image-container{
+    float:left;
+    width:50px;
+    height:50px;
+    margin-right: 20px;
+}
+div#order-detail table tbody tr td img.cart-image{
+    display: block;
+    margin:auto;
+    max-width:50px;
+    max-height:50px;
+    vertical-align: middle;
+}
+
+div#order-detail table tfoot tr td {
+    font-size: 24px;
+    background-color: #00aedb;
+    color: #FFF;
+    padding-bottom: 2px;
+    padding-top:2px;
+    padding-right:7px;
+    text-align: right;
+}
+
+div#order-detail div#payment{
+    float:left;
+    margin-top:20px;
+    width:300px;
+    padding:10px 20px;
+    background-color: #e7e7e7;
+}
+div#order-detail div#payment img{
+    margin-top:5px;
+}
+div#order-detail div#payment label#cardno{
+    margin-top:5px;
+}
+div#order-detail div#grandtotal{
+    float:right;
+    clear: right;
+    margin-right:55px;
+    margin-top:20px;
+    font-size:32px;
+    padding:5px 35px;
+
+    background-color: #e7e7e7;
+    text-align: center;
+    color: #4c7ae5;
+}
+div#order-detail div#grandtotal span#grandtotal-title{
+    color:#000;
+}
+div#order-detail div#purchase{
+    float:right;
+    clear:right;
+}
+div#order-detail div#purchase input#purchase-btn{
+    margin-right:55px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border:2px solid #db2d00;
+    background: #db2d00;
+    color:#FFF;
+    font-size: 50px;
+    padding:10px 30px;
+}
+div#order-detail input#purchase-btn:hover{
+    border:2px solid red;
+}
+/*---Order Detail---*/
